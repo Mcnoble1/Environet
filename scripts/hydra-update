@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# @cmd Update hydra
+# @option --version!          Version
+update() {
+  echo "$(tput setaf 1)This function is deprecated, please use hydra update instead"
+  exit 0
+}
+
+eval "$(argc --argc-eval "$0" "$@")"

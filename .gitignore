@@ -1,0 +1,17 @@
+infra/docker/grafana/grafana/config/
+infra/docker/grafana/prometheus/data/
+infra/docker/grafana/prometheus/monitoring/
+.idea
+infra/docker/shared/jars/**.jar
+.vscode
+source/project/*
+source/metagraph-l0/genesis/genesis.address
+source/metagraph-l0/genesis/genesis.snapshot
+source/*-monitoring-service
+source/p12-files/*
+infra/docker/shared/genesis/*
+euclid.json
+
+!source/p12-files/token-key-1.p12
+!source/p12-files/token-key-2.p12
+!source/p12-files/token-key-3.p12
