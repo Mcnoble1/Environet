@@ -54,18 +54,19 @@ EnviroNet uses several data sources and workers/daemons, which are triggered per
 ```
 NOTE: Only one update per initiative will be accepted. Duplicate submissions will be discarded.
 
-Token Minting Rates
-GreenEnergyPlatform Data: 20 tokens per verified report of renewable energy usage.
-CarbonFootprintCalculator Data: 30 tokens per verified carbon reduction milestone.
-InvestmentPlatform Data: 50 tokens per verified investment in green technologies.
-New Green Initiatives: 25 tokens per approved new green project or activity.
-Worker/Daemon Functionality
+### Token Minting Rates
+- GreenEnergyPlatform Data: 20 tokens per verified report of renewable energy usage.
+- CarbonFootprintCalculator Data: 30 tokens per verified carbon reduction milestone.
+- InvestmentPlatform Data: 50 tokens per verified investment in green technologies.
+- New Green Initiatives: 25 tokens per approved new green project or activity.
+
+### Worker/Daemon Functionality
 Each worker/daemon performs the following tasks on a defined schedule:
 
-Check for Updates: The worker queries the relevant data source for any new data or events related to green energy participation.
-Process Data: The worker processes the retrieved data to determine eligibility for rewards.
-Send Updates: The worker sends the processed data to the metagraph, updating it with new information and minting tokens as necessary.
+- Check for Updates: The worker queries the relevant data source for any new data or events related to green energy participation.
+- Process Data: The worker processes the retrieved data to determine eligibility for rewards.
+- Send Updates: The worker sends the processed data to the metagraph, updating it with new information and minting tokens as necessary.
 This periodic checking mechanism ensures that the metagraph remains current with the latest green energy activities, accurately rewarding participants for their contributions.
 
-Conclusion
+### Conclusion
 The EnviroNet Metagraph leverages a comprehensive set of data sources and workers to incentivize and track green energy participation. By continuously monitoring and updating the metagraph, EnviroNet ensures that positive environmental actions are recognized and rewarded, driving greater engagement in sustainability efforts.
